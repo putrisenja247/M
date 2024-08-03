@@ -1,0 +1,12 @@
+/* styles.css */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.video-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
